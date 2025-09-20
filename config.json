@@ -21,7 +21,7 @@
   },
   "startup": "once",
   "boot": "manual",
-  "image": "homeassistant/{arch}-base",
+  "image": "my-addon/{arch}-shelly-wifi-konfigurator",
   "host_network": true,
   "hassio_api": true,
   "privileged": [
