@@ -21,7 +21,7 @@
   },
   "startup": "once",
   "boot": "manual",
-  "image": "my-shelly-addon/shelly-wifikonfigurator-{arch}",
+  "image": "ghcr.io/0711smarthome/shelly-wifikonfigurator-{arch}",
   "host_network": true,
   "hassio_api": true,
   "privileged": [
