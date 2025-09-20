@@ -21,7 +21,7 @@
   },
   "startup": "once",
   "boot": "manual",
-  "image": "ghcr.io/home-assistant/{arch}-addon-base:latest",
+  "image": "homeassistant/{arch}-addon-base",
   "host_network": true,
   "hassio_api": true,
   "privileged": [
