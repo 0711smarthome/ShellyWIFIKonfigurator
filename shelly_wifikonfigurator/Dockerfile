@@ -1,3 +1,4 @@
+ARG GHCR_TOKEN
 # Verwenden Sie ein schlankes Python-Image als Basis
 FROM python:3.11-slim
 
