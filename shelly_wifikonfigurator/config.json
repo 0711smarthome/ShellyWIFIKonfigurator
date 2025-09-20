@@ -22,6 +22,9 @@
   "startup": "once",
   "boot": "manual",
   "image": "ghcr.io/0711smarthome/shelly-wifikonfigurator-{arch}",
+  "build": {
+    "secrets": ["ghcr-token"]
+  },
   "host_network": true,
   "hassio_api": true,
   "privileged": [
