@@ -21,7 +21,7 @@
   },
   "startup": "once",
   "boot": "manual",
-  "image": "my-shelly-addon/{arch}-konfigurator",
+  "image": "local/shelly-wifikonfigurator-{arch}",
   "host_network": true,
   "hassio_api": true,
   "privileged": [
